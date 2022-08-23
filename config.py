@@ -1,6 +1,6 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/t.me/pubsup_ch & https://t.me/testessg
 
 import logging
 import os
@@ -22,17 +22,17 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1926379604"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5039480382"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "fckandnight")
+OWNER = os.environ.get("OWNER", "yuddisini")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-100"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-100"))
 
 #PROTECT
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
