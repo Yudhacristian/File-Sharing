@@ -33,7 +33,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.**
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/putraicipiyey/filesharing
+git clone https://github.com/Yudhacristian/File-Sharing
 cd filesharing
 pip3 install -r requirements.txt
 cp sample_config.env config.env
